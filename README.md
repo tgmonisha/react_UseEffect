@@ -1,12 +1,51 @@
-# React + Vite
+# React useEffect - Page Title Changer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to use the **useEffect** hook in React to dynamically update both the **browser tab title** and a **pagename** when switching between Home, About, and Contact.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Updates the **browser tab title** when a button is clicked.
+- Displays a **pagename**/ (HOME / ABOUT / CONTACT) that changes based on the selection.
+- Minimal and clean UI with styled buttons.
+- Practice of `useState` and `useEffect` hooks together.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **React (Vite)**
+- **JavaScript (ES6+)**
+- **CSS**
 
-## Expanding the ESLint configuration
+## 📸 Output Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🏠 Home Selected
+![Home Output](./output1.png)  
+Tab Title: **My App - Home**  
+Displayed Text: **HOME**
+
+---
+
+### 📖 About Selected
+![About Output](./output2.png)  
+Tab Title: **My App - About**  
+Displayed Text: **ABOUT**
+
+---
+
+### 📩 Contact Selected
+![Contact Output](./output3.png)  
+Tab Title: **My App - Contact**  
+Displayed Text: **CONTACT**
+
+---
+
+## ⚡ How to Run Locally
+```bash
+# Clone the repository
+git clone https://github.com/tgmonisha/react_UseEffect.git
+
+# Navigate to project folder
+cd react_UseEffect
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
